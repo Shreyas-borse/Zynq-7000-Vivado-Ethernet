@@ -1,0 +1,12 @@
+!SESSION 2020-07-28 14:21:12.068 -----------------------------------------------
+eclipse.buildId=2018.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.sdk
+
+This is a continuation of log file /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.sdk/.metadata/.bak_0.log
+Created Time: 2020-07-28 14:47:46.987
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-28 14:47:46.987
+!MESSAGE Executed Webtalk command

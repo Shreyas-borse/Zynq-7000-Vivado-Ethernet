@@ -1,0 +1,4 @@
+NumberHits:7
+Timestamp: Mon Jul 27 22:29:35 UTC 2020
+VLNV: xilinx.com:ip:axi_dma:7.1
+SynthRuntime: 235

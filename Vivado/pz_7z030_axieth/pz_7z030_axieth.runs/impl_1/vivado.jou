@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 28 04:33:56 2020
+# Process ID: 9384
+# Current directory: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/impl_1
+# Command line: vivado -log pz_7z030_axieth_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pz_7z030_axieth_wrapper.tcl -notrace
+# Log file: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/impl_1/pz_7z030_axieth_wrapper.vdi
+# Journal file: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source pz_7z030_axieth_wrapper.tcl -notrace

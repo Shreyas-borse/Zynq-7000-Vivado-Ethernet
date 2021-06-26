@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Mon Jul 27 22:56:34 UTC 2020
+VLNV: xilinx.com:ip:tri_mode_ethernet_mac:9.0
+SynthRuntime: 117

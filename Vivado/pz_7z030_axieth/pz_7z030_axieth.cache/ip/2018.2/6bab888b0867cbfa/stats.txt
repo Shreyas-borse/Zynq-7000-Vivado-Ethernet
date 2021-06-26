@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Mon Jul 27 22:59:09 UTC 2020
+VLNV: xilinx.com:ip:axi_ethernet:7.1
+SynthRuntime: 78

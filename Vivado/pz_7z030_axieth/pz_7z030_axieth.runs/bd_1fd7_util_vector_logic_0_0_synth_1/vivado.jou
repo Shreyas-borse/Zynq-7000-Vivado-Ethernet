@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 28 04:30:28 2020
+# Process ID: 9036
+# Current directory: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/bd_1fd7_util_vector_logic_0_0_synth_1
+# Command line: vivado -log bd_1fd7_util_vector_logic_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_1fd7_util_vector_logic_0_0.tcl
+# Log file: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/bd_1fd7_util_vector_logic_0_0_synth_1/bd_1fd7_util_vector_logic_0_0.vds
+# Journal file: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/bd_1fd7_util_vector_logic_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source bd_1fd7_util_vector_logic_0_0.tcl -notrace

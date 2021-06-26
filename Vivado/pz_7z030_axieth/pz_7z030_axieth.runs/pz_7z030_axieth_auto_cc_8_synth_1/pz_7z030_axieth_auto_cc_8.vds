@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 28 04:09:31 2020
+# Process ID: 6029
+# Current directory: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/pz_7z030_axieth_auto_cc_8_synth_1
+# Command line: vivado -log pz_7z030_axieth_auto_cc_8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pz_7z030_axieth_auto_cc_8.tcl
+# Log file: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/pz_7z030_axieth_auto_cc_8_synth_1/pz_7z030_axieth_auto_cc_8.vds
+# Journal file: /home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.runs/pz_7z030_axieth_auto_cc_8_synth_1/vivado.jou
+#-----------------------------------------------------------
+source pz_7z030_axieth_auto_cc_8.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP pz_7z030_axieth_auto_cc_8, cache-ID = bcc78290e4c22293.
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 28 04:09:51 2020...

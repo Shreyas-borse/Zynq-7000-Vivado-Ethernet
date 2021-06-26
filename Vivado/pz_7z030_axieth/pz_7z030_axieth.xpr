@@ -1,0 +1,2140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2018.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="38" Path="/home/shreyas/Desktop/projects/picozedFMCeth/Vivado/pz_7z030_axieth/pz_7z030_axieth.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="f9a7ea9943324ea986eb76af111dc19c"/>
+    <Option Name="Part" Val="xc7z030sbg485-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val="em.avnet.com:picozed_7030_fmc2:part0:1.1"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSAVendor" Val="xilinx"/>
+    <Option Name="DSABoardId" Val="picozed_7030_fmc2"/>
+    <Option Name="DSANumComputeUnits" Val="60"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/bd/pz_7z030_axieth/pz_7z030_axieth.bd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_3/bd_1f27_c_counter_binary_0_0.xci">
+          <Proxy FileSetName="bd_1f27_c_counter_binary_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_0/bd_1f27_eth_buf_0.xci">
+          <Proxy FileSetName="bd_1f27_eth_buf_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_axi_ethernet_3_0/pz_7z030_axieth_axi_ethernet_3_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_axi_ethernet_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_axi_ethernet_0_dma_0/pz_7z030_axieth_axi_ethernet_0_dma_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_axi_ethernet_0_dma_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_axi_ethernet_1_dma_0/pz_7z030_axieth_axi_ethernet_1_dma_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_axi_ethernet_1_dma_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_axi_ethernet_2_dma_0/pz_7z030_axieth_axi_ethernet_2_dma_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_axi_ethernet_2_dma_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_axi_ethernet_3_dma_0/pz_7z030_axieth_axi_ethernet_3_dma_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_axi_ethernet_3_dma_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_clk_wiz_0_0/pz_7z030_axieth_clk_wiz_0_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_clk_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_ref_clk_fsel_0/pz_7z030_axieth_ref_clk_fsel_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_ref_clk_fsel_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_rst_ps7_0_50M_0/pz_7z030_axieth_rst_ps7_0_50M_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_rst_ps7_0_50M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_processing_system7_0_0/pz_7z030_axieth_processing_system7_0_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_processing_system7_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_ref_clk_oe_0/pz_7z030_axieth_ref_clk_oe_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_ref_clk_oe_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_rst_clk_wiz_0_125M_0/pz_7z030_axieth_rst_clk_wiz_0_125M_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_rst_clk_wiz_0_125M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_xlconcat_0_0/pz_7z030_axieth_xlconcat_0_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_xlconcat_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_axi_ethernet_0_0/pz_7z030_axieth_axi_ethernet_0_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_axi_ethernet_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_axi_ethernet_1_0/pz_7z030_axieth_axi_ethernet_1_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_axi_ethernet_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_axi_ethernet_2_0/pz_7z030_axieth_axi_ethernet_2_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_axi_ethernet_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_xbar_1/pz_7z030_axieth_xbar_1.xci">
+          <Proxy FileSetName="pz_7z030_axieth_xbar_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_xbar_0/pz_7z030_axieth_xbar_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_pc_1/pz_7z030_axieth_auto_pc_1.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_pc_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_11/pz_7z030_axieth_auto_us_11.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_11"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_11/pz_7z030_axieth_auto_cc_11.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_11"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_10/pz_7z030_axieth_auto_us_10.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_10"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_10/pz_7z030_axieth_auto_cc_10.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_10"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_9/pz_7z030_axieth_auto_us_9.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_9"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_9/pz_7z030_axieth_auto_cc_9.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_9"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_8/pz_7z030_axieth_auto_cc_8.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_8"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_7/pz_7z030_axieth_auto_us_7.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_7"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_7/pz_7z030_axieth_auto_cc_7.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_7"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_6/pz_7z030_axieth_auto_us_6.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_6"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_6/pz_7z030_axieth_auto_cc_6.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_6"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_5/pz_7z030_axieth_auto_cc_5.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_5"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_4/pz_7z030_axieth_auto_us_4.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_4"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_4/pz_7z030_axieth_auto_cc_4.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_4"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_3/pz_7z030_axieth_auto_us_3.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_3/pz_7z030_axieth_auto_cc_3.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_2/pz_7z030_axieth_auto_cc_2.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_1/pz_7z030_axieth_auto_us_1.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_1/pz_7z030_axieth_auto_cc_1.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_us_0/pz_7z030_axieth_auto_us_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_us_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_cc_0/pz_7z030_axieth_auto_cc_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_cc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/pz_7z030_axieth_auto_pc_0/pz_7z030_axieth_auto_pc_0.xci">
+          <Proxy FileSetName="pz_7z030_axieth_auto_pc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_5/bd_1f27_util_vector_logic_0_0.xci">
+          <Proxy FileSetName="bd_1f27_util_vector_logic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_4/bd_1f27_xlconstant_0_0.xci">
+          <Proxy FileSetName="bd_1f27_xlconstant_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_2/bd_1f27_c_shift_ram_0_0.xci">
+          <Proxy FileSetName="bd_1f27_c_shift_ram_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_1/bd_1f27_mac_0.xci">
+          <Proxy FileSetName="bd_1f27_mac_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_1/bd_df76_mac_0.xci">
+          <Proxy FileSetName="bd_df76_mac_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_2/bd_df76_c_shift_ram_0_0.xci">
+          <Proxy FileSetName="bd_df76_c_shift_ram_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_3/bd_df76_c_counter_binary_0_0.xci">
+          <Proxy FileSetName="bd_df76_c_counter_binary_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_5/bd_df76_util_vector_logic_0_0.xci">
+          <Proxy FileSetName="bd_df76_util_vector_logic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_5/bd_df86_util_vector_logic_0_0.xci">
+          <Proxy FileSetName="bd_df86_util_vector_logic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_1/bd_df86_mac_0.xci">
+          <Proxy FileSetName="bd_df86_mac_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_2/bd_df86_c_shift_ram_0_0.xci">
+          <Proxy FileSetName="bd_df86_c_shift_ram_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_3/bd_df86_c_counter_binary_0_0.xci">
+          <Proxy FileSetName="bd_df86_c_counter_binary_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_5/bd_1fd7_util_vector_logic_0_0.xci">
+          <Proxy FileSetName="bd_1fd7_util_vector_logic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_1/bd_1fd7_mac_0.xci">
+          <Proxy FileSetName="bd_1fd7_mac_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_2/bd_1fd7_c_shift_ram_0_0.xci">
+          <Proxy FileSetName="bd_1fd7_c_shift_ram_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="pz_7z030_axieth.bd" FileRelPathName="ip/ip_3/bd_1fd7_c_counter_binary_0_0.xci">
+          <Proxy FileSetName="bd_1fd7_c_counter_binary_0_0"/>
+        </CompFileExtendedInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/pz_7z030_axieth/hdl/pz_7z030_axieth_wrapper.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="pz_7z030_axieth_wrapper"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PPRDIR/../src/constraints/pzfmc-7z015-7z030-1v8.xdc">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../src/constraints/rgmii-0123.xdc">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="ProcessingOrder" Val="LATE"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TargetConstrsFile" Val="$PPRDIR/../src/constraints/pzfmc-7z015-7z030-1v8.xdc"/>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="pz_7z030_axieth_wrapper"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1f27_eth_buf_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1f27_eth_buf_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1f27_eth_buf_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1f27_mac_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1f27_mac_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1f27_mac_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1f27_xlconstant_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1f27_xlconstant_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1f27_xlconstant_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_axi_ethernet_3_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_axi_ethernet_3_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_axi_ethernet_3_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_axi_ethernet_0_dma_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_axi_ethernet_0_dma_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_axi_ethernet_0_dma_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_axi_ethernet_1_dma_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_axi_ethernet_1_dma_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_axi_ethernet_1_dma_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_axi_ethernet_2_dma_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_axi_ethernet_2_dma_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_axi_ethernet_2_dma_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_axi_ethernet_3_dma_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_axi_ethernet_3_dma_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_axi_ethernet_3_dma_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_clk_wiz_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_clk_wiz_0_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_clk_wiz_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_ref_clk_fsel_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_ref_clk_fsel_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_ref_clk_fsel_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_rst_ps7_0_50M_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_rst_ps7_0_50M_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_rst_ps7_0_50M_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_processing_system7_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_processing_system7_0_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_processing_system7_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_ref_clk_oe_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_ref_clk_oe_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_ref_clk_oe_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_rst_clk_wiz_0_125M_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_rst_clk_wiz_0_125M_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_rst_clk_wiz_0_125M_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_xlconcat_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_xlconcat_0_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_xlconcat_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_axi_ethernet_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_axi_ethernet_0_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_axi_ethernet_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_axi_ethernet_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_axi_ethernet_1_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_axi_ethernet_1_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_axi_ethernet_2_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_axi_ethernet_2_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_axi_ethernet_2_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_xbar_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_xbar_1">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_xbar_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_xbar_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_xbar_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_pc_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_pc_1">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_pc_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_11" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_11">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_11"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_11" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_11">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_11"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_10" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_10">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_10"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_10" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_10">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_10"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_9" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_9">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_9"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_9" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_9">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_9"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_8" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_8">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_8"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_7" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_7">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_7"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_7" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_7">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_7"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_6" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_6">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_6"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_6" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_6">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_6"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_5" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_5">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_5"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_4" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_4">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_4"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_4" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_4">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_4"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_3">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_3"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_3">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_3"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_2">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_1">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_1">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_us_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_us_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_us_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_cc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_cc_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_cc_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pz_7z030_axieth_auto_pc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pz_7z030_axieth_auto_pc_0">
+      <Config>
+        <Option Name="TopModule" Val="pz_7z030_axieth_auto_pc_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1f27_util_vector_logic_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1f27_util_vector_logic_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1f27_util_vector_logic_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1f27_c_counter_binary_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1f27_c_counter_binary_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1f27_c_counter_binary_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1f27_c_shift_ram_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1f27_c_shift_ram_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1f27_c_shift_ram_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_df76_mac_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_df76_mac_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_df76_mac_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_df76_c_shift_ram_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_df76_c_shift_ram_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_df76_c_shift_ram_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_df76_c_counter_binary_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_df76_c_counter_binary_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_df76_c_counter_binary_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_df76_util_vector_logic_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_df76_util_vector_logic_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_df76_util_vector_logic_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_df86_mac_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_df86_mac_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_df86_mac_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_df86_c_shift_ram_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_df86_c_shift_ram_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_df86_c_shift_ram_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_df86_c_counter_binary_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_df86_c_counter_binary_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_df86_c_counter_binary_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_df86_util_vector_logic_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_df86_util_vector_logic_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_df86_util_vector_logic_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1fd7_mac_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1fd7_mac_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1fd7_mac_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1fd7_c_shift_ram_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1fd7_c_shift_ram_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1fd7_c_shift_ram_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1fd7_c_counter_binary_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1fd7_c_counter_binary_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1fd7_c_counter_binary_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bd_1fd7_util_vector_logic_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_1fd7_util_vector_logic_0_0">
+      <Config>
+        <Option Name="TopModule" Val="bd_1fd7_util_vector_logic_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="Xcelium">
+      <Option Name="Description" Val="Xcelium Parallel Simulator"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z030sbg485-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_eth_buf_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1f27_eth_buf_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_eth_buf_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1f27_eth_buf_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_mac_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1f27_mac_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_mac_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1f27_mac_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_xlconstant_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1f27_xlconstant_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_xlconstant_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1f27_xlconstant_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_3_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_axi_ethernet_3_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_3_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_axi_ethernet_3_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_0_dma_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_axi_ethernet_0_dma_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_0_dma_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_axi_ethernet_0_dma_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_1_dma_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_axi_ethernet_1_dma_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_1_dma_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_axi_ethernet_1_dma_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_2_dma_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_axi_ethernet_2_dma_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_2_dma_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_axi_ethernet_2_dma_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_3_dma_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_axi_ethernet_3_dma_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_3_dma_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_axi_ethernet_3_dma_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_clk_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_clk_wiz_0_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_clk_wiz_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_clk_wiz_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_ref_clk_fsel_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_ref_clk_fsel_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_ref_clk_fsel_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_ref_clk_fsel_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_rst_ps7_0_50M_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_rst_ps7_0_50M_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_rst_ps7_0_50M_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_rst_ps7_0_50M_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_processing_system7_0_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_processing_system7_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_processing_system7_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_ref_clk_oe_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_ref_clk_oe_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_ref_clk_oe_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_ref_clk_oe_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_rst_clk_wiz_0_125M_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_rst_clk_wiz_0_125M_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_rst_clk_wiz_0_125M_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_rst_clk_wiz_0_125M_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_xlconcat_0_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_xlconcat_0_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_xlconcat_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_xlconcat_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_0_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_axi_ethernet_0_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_axi_ethernet_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_1_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_axi_ethernet_1_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_1_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_axi_ethernet_1_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_2_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_axi_ethernet_2_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_2_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_axi_ethernet_2_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_xbar_1_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_xbar_1" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_xbar_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_xbar_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_xbar_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_xbar_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_xbar_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_pc_1_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_pc_1" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_pc_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_pc_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_11_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_11" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_11" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_11_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_11_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_11" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_11" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_11_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_10_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_10" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_10" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_10_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_10_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_10" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_10" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_10_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_9_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_9" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_9" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_9_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_9_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_9" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_9" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_9_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_8_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_8" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_8" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_8_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_7_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_7" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_7" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_7_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_7_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_7" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_7" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_7_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_6_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_6" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_6" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_6_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_6_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_6" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_6" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_6_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_5_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_5" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_5" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_5_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_4_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_4" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_4" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_4_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_4_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_4" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_4" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_4_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_3_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_3" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_3" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_3_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_3_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_3" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_3" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_3_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_2_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_2" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_2" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_2_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_1_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_1" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_1_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_1" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_us_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_us_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_cc_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_cc_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_pc_0_synth_1" Type="Ft3:Synth" SrcSet="pz_7z030_axieth_auto_pc_0" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_pc_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pz_7z030_axieth_auto_pc_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_util_vector_logic_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1f27_util_vector_logic_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_util_vector_logic_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1f27_util_vector_logic_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_c_counter_binary_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1f27_c_counter_binary_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_c_counter_binary_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1f27_c_counter_binary_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_c_shift_ram_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1f27_c_shift_ram_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_c_shift_ram_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1f27_c_shift_ram_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df76_mac_0_synth_1" Type="Ft3:Synth" SrcSet="bd_df76_mac_0" Part="xc7z030sbg485-1" ConstrsSet="bd_df76_mac_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_df76_mac_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df76_c_shift_ram_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_df76_c_shift_ram_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_df76_c_shift_ram_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_df76_c_shift_ram_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df76_c_counter_binary_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_df76_c_counter_binary_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_df76_c_counter_binary_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_df76_c_counter_binary_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df76_util_vector_logic_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_df76_util_vector_logic_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_df76_util_vector_logic_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_df76_util_vector_logic_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df86_mac_0_synth_1" Type="Ft3:Synth" SrcSet="bd_df86_mac_0" Part="xc7z030sbg485-1" ConstrsSet="bd_df86_mac_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_df86_mac_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df86_c_shift_ram_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_df86_c_shift_ram_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_df86_c_shift_ram_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_df86_c_shift_ram_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df86_c_counter_binary_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_df86_c_counter_binary_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_df86_c_counter_binary_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_df86_c_counter_binary_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df86_util_vector_logic_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_df86_util_vector_logic_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_df86_util_vector_logic_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_df86_util_vector_logic_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1fd7_mac_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1fd7_mac_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1fd7_mac_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1fd7_mac_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1fd7_c_shift_ram_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1fd7_c_shift_ram_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1fd7_c_shift_ram_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1fd7_c_shift_ram_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1fd7_c_counter_binary_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1fd7_c_counter_binary_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1fd7_c_counter_binary_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1fd7_c_counter_binary_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1fd7_util_vector_logic_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_1fd7_util_vector_logic_0_0" Part="xc7z030sbg485-1" ConstrsSet="bd_1fd7_util_vector_logic_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/bd_1fd7_util_vector_logic_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_eth_buf_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_eth_buf_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1f27_eth_buf_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_mac_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_mac_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1f27_mac_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_xlconstant_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_xlconstant_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1f27_xlconstant_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_3_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_3_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_axi_ethernet_3_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_0_dma_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_0_dma_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_axi_ethernet_0_dma_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_1_dma_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_1_dma_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_axi_ethernet_1_dma_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_2_dma_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_2_dma_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_axi_ethernet_2_dma_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_3_dma_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_3_dma_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_axi_ethernet_3_dma_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_clk_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_clk_wiz_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_clk_wiz_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_ref_clk_fsel_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_ref_clk_fsel_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_ref_clk_fsel_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_rst_ps7_0_50M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_rst_ps7_0_50M_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_rst_ps7_0_50M_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_processing_system7_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_processing_system7_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_ref_clk_oe_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_ref_clk_oe_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_ref_clk_oe_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_rst_clk_wiz_0_125M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_rst_clk_wiz_0_125M_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_rst_clk_wiz_0_125M_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_xlconcat_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_xlconcat_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_xlconcat_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_axi_ethernet_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_1_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_axi_ethernet_1_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_axi_ethernet_2_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_axi_ethernet_2_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_axi_ethernet_2_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_xbar_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_xbar_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_xbar_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_xbar_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_xbar_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_pc_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_pc_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_pc_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_11_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_11" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_11_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_11_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_11" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_11_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_10_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_10" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_10_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_10_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_10" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_10_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_9_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_9" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_9_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_9_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_9" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_9_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_8_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_8" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_8_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_7_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_7" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_7_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_7_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_7" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_7_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_6_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_6" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_6_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_6_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_6" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_6_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_5_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_5" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_5_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_4_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_4" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_4_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_4_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_4" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_4_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_3_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_3" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_3_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_3_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_3" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_3_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_2" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_2_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_us_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_us_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_us_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_cc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_cc_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_cc_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pz_7z030_axieth_auto_pc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="pz_7z030_axieth_auto_pc_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pz_7z030_axieth_auto_pc_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_util_vector_logic_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_util_vector_logic_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1f27_util_vector_logic_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_c_counter_binary_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_c_counter_binary_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1f27_c_counter_binary_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1f27_c_shift_ram_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1f27_c_shift_ram_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1f27_c_shift_ram_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df76_mac_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_df76_mac_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_df76_mac_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df76_c_shift_ram_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_df76_c_shift_ram_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_df76_c_shift_ram_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df76_c_counter_binary_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_df76_c_counter_binary_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_df76_c_counter_binary_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df76_util_vector_logic_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_df76_util_vector_logic_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_df76_util_vector_logic_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df86_mac_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_df86_mac_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_df86_mac_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df86_c_shift_ram_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_df86_c_shift_ram_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_df86_c_shift_ram_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df86_c_counter_binary_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_df86_c_counter_binary_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_df86_c_counter_binary_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_df86_util_vector_logic_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_df86_util_vector_logic_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_df86_util_vector_logic_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1fd7_mac_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1fd7_mac_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1fd7_mac_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1fd7_c_shift_ram_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1fd7_c_shift_ram_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1fd7_c_shift_ram_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1fd7_c_counter_binary_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1fd7_c_counter_binary_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1fd7_c_counter_binary_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bd_1fd7_util_vector_logic_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z030sbg485-1" ConstrsSet="bd_1fd7_util_vector_logic_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="bd_1fd7_util_vector_logic_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+  <Board>
+    <Jumpers/>
+  </Board>
+</Project>

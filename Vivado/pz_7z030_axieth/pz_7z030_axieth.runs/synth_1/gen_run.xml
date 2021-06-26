@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z030sbg485-1" LaunchTime="1595888911">
+  <File Type="VDS-TIMING-PB" Name="pz_7z030_axieth_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="pz_7z030_axieth_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="pz_7z030_axieth_wrapper.dcp"/>
+  <File Type="PA-TCL" Name="pz_7z030_axieth_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="pz_7z030_axieth_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="pz_7z030_axieth_wrapper.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="pz_7z030_axieth_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="pz_7z030_axieth_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="pz_7z030_axieth_wrapper_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/pz_7z030_axieth/pz_7z030_axieth.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/pz_7z030_axieth/hdl/pz_7z030_axieth_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pz_7z030_axieth_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../src/constraints/pzfmc-7z015-7z030-1v8.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/constraints/rgmii-0123.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ProcessingOrder" Val="LATE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../src/constraints/pzfmc-7z015-7z030-1v8.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1fd7_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1fd7_c_counter_binary_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_df86_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_df86_mac_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_df76_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_df76_c_counter_binary_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_df86_c_shift_ram_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_df76_mac_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1f27_c_shift_ram_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1f27_c_counter_binary_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_rst_ps7_0_50M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_axi_ethernet_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_ref_clk_oe_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1fd7_c_shift_ram_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_ref_clk_fsel_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_9"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_axi_ethernet_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1fd7_mac_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_axi_ethernet_2_dma_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_axi_ethernet_3_dma_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_df76_c_shift_ram_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_xlconcat_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1f27_eth_buf_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_axi_ethernet_1_dma_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_rst_clk_wiz_0_125M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1f27_xlconstant_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_axi_ethernet_0_dma_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1f27_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_axi_ethernet_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_9"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_axi_ethernet_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_pc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_10"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_11"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_df86_c_counter_binary_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_1f27_mac_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_cc_10"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_11"/>
+  <BlockFileSet Type="BlockSrcs" Name="pz_7z030_axieth_auto_us_4"/>
+</GenRun>
